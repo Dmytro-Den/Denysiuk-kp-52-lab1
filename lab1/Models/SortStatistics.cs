@@ -9,7 +9,7 @@ namespace lab1.Models
         public int PassesCount { get; set; }
         public TimeSpan ExecutionTime { get; set; }
 
-        public void Reset()
+         public void Reset()
         {
             ComparisonsCount = 0;
             CopiesCount = 0;
